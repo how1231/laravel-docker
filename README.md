@@ -52,3 +52,9 @@ docker exec provider_integration bash -c "php artisan migrate:refresh --seed"
 docker exec provider_integration bash -c "composer dump-autoload"
 docker exec provider_integration bash -c "composer dump-autoload"
 ```
+
+#Local Dev Env
+```
+web/api: localhost:9000
+phpmyadmin: localhost:9001
+```
